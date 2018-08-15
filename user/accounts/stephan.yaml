@@ -1,0 +1,11 @@
+email: stephan@kreynation.com
+fullname: 'Stephan Moerman'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$BH1rsFlVhvCrN0Fi3s3OjuJ8vlm8F2QrkCfW8kgosH/WS0KSOJ8qG

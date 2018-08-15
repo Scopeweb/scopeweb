@@ -1,0 +1,15 @@
+<section class="search-row">
+    <div class="search-item">
+        <div class="search-title">
+            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+        </div>
+
+        <div class="search-details">
+            <span class="search-date">{{ page.date|date(config.system.pages.dateformat.short) }}</span>
+        </div>
+
+        <p>{{ page.summary(250)|striptags('<p>') }}</p>
+
+        <hr />
+    </div>
+</section>

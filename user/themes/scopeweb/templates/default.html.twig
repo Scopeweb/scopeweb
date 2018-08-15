@@ -1,0 +1,145 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <!-- Spotlight -->
+        <section class="slice slice-xl bg-secondary section-rotate">
+            <div class="section-inner bg-gradient-primary"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="pt-lg-md text-center text-lg-left">
+                            <h2 class="text-white mb-3 lh-150">We build beautiful & reliable web/mobile solutions.</h2>
+                            <p class="lead text-white lh-180">We strongly believe that communication, trust and transparency are the essential elements of a succesful business relationship. Are you ready for the journey?</p>
+                            <div class="mt-5">
+                                <a href="client-work.html" class="btn btn-info btn-circle btn-translate--hover mr-4">See our projects</a>
+                                <a href="services.html" class="btn btn-white btn-circle btn-translate--hover">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-2">
+                        <img src="{{ url('theme://images/highlights/laptop-hero.png') }}" class="img-fluid rounded d-none d-lg-block">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slice slice-xl bg-secondary">
+            <div class="container">
+                <div class="row row-grid">
+                    <div class="col-lg-4">
+                        <div>
+                            <div class="icon text-primary mb-3">
+                                <img src="{{ url('theme://images/icons/dusk/png/code.png') }}" class="img-fluid">
+                            </div>
+                            <h5 class="h5">Clean code</h5>
+                            <p>Our team of developes produce high-quality code that is easy to maintain by any other development team and well documented.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <div class="icon text-primary mb-3">
+                                <img src="{{ url('theme://images/icons/dusk/png/toolbar-top.png') }}" class="img-fluid">
+                            </div>
+                            <h5 class="h5">Responsive design</h5>
+                            <p>Our frontend experts use the latest UI frameworks such as React and Vuejs to bring you high-quality and lightning fast user experiences.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <div class="icon text-primary mb-3">
+                                <img src="{{ url('theme://images/icons/dusk/png/online-support.png') }}" class="img-fluid">
+                            </div>
+                            <h5 class="h5">Technical support</h5>
+                            <p>Outside of building the application our team is able to support the growth and development of the application no matter the size.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image + Content -->
+        <section class="slice slice-lg">
+            <div class="container">
+                <div class="row row-grid align-items-center">
+                    <div class="col-md-6 ">
+                        <img src="{{ url('theme://images/prv/img-3-1000x900.jpg') }}" class="img-center img-fluid rounded shadow">
+                    </div>
+                    <div class="col-md-6 col-lg-5  ml-lg-auto ">
+                        <div class="pr-md-4">
+                            <h3 class="heading h3">We are 110% involved</h3>
+                            <p class="lead text-gray my-4">At Scope Web we imagine, plan and bring consumer internet experience to life. We provide a mixture of consulting, designing and engineering. Our customers range from startups through to large multinationals. We're all about connecting people and businesses without corporate talk.</p>
+                            <a href="/client-work" class="link font-weight-bold" data-link="1">Our clients</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image + Content -->
+        <section class="slice slice-lg">
+            <div class="container">
+                <div class="row row-grid align-items-center">
+                    <div class="col-md-6  order-lg-2 ml-lg-auto ">
+                        <img src="{{ url('theme://images/prv/img-5-1000x900.jpg') }}" class="img-center img-fluid rounded shadow">
+                    </div>
+                    <div class="col-md-6 col-lg-5  order-lg-1 ">
+                        <div class="pr-md-4">
+                            <h3 class="heading h3">We never give up</h3>
+                            <p class="lead text-gray my-4">We hate what the internet has become. A lot of agencies deliver poor quality work and have given the industry a bad reputation. We love our jobs and industry, therefore you'll often find us available around the clock to help you tackle any challenges your business might face.</p>
+                            <a href="/team" class="link font-weight-bold" data-link="1">Our team</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features -->
+        <section class="slice slice-lg">
+            <div class="container">
+            </div>
+        </section>
+        <!-- Clients -->
+        <section class="slice">
+            <div class="container">
+                <div class="mb-md text-center">
+                    <h3 class="h2">Brands we have <span class="text-primary">proudly</span> served</h3>
+                    <div class="fluid-paragraph mt-3">
+                        <p class="lead">Are you next in line? Let's start your project.</p>
+                    </div>
+                </div>
+                <div class="blurable--hover">
+                    <a href="#">
+                        <div class="row blurable-item">
+                            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                                <div class="card px-4 py-4">
+                                    <img src="{{ url('theme://images/prv/partners/brand-1.png') }}" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                                <div class="card px-4 py-4">
+                                    <img src="{{ url('theme://images/prv/partners/brand-2.png') }}" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                                <div class="card px-4 py-4">
+                                    <img src="{{ url('theme://images/prv/partners/brand-3.png') }}" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                                <div class="card px-4 py-4">
+                                    <img src="{{ url('theme://images/prv/partners/brand-4.png') }}" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                                <div class="card px-4 py-4">
+                                    <img src="{{ url('theme://images/prv/partners/brand-5.png') }}" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                                <div class="card px-4 py-4">
+                                    <img src="{{ url('theme://images/prv/partners/brand-6.png') }}" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <span class="blurable-hidden btn btn-primary btn-circle">See all customers</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+{% endblock %}
