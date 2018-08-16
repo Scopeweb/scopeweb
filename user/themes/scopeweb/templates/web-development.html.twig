@@ -1,0 +1,178 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+{% block javascripts %}
+    {% do assets.addJs('theme://vendor/jquery/jquery.min.js', {'priority':100, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://vendor/popper/popper.min.js', {'priority':99, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://js/bootstrap/bootstrap.min.js', {'priority':98, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://vendor/fontawesome/js/fontawesome-all.min.js', {'priority':97, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://vendor/swiper/js/swiper.min.js', {'priority':96, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://js/theme.min.js', {'priority':95, 'group':'bottom'}) %}
+{% endblock %}
+{{ assets.js() }}
+
+{% block stylesheets %}
+    {% do assets.addCss('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800', 100) %}
+    {% do assets.addCss('theme://vendor/swiper/css/swiper.min.css', 99) %}
+    {% do assets.addCss('theme://css/theme.css', 98) %}
+{% endblock %}
+{{ assets.css() }}
+
+<!-- Spotlight -->
+<section class="slice slice-lg pb-lg-0 bg-gradient-primary" data-separator="rounded-left" data-separator-orientation="bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="mb--100 position-relative" style="z-index: 1;">
+                    <div class="pt-lg-lg text-center">
+                        <h6 class="text-white text-uppercase ls-2 mb-4 text-muted font-weight-700">Web Development</h6>
+                        <h2 class="heading h2 text-white lh-160 font-weight-300">We appreciate that commissioning a new piece of professional web development can often be a weighty investment, which is why we like to remove the jargon and focus on your objectives from day one.</h2>
+                    </div>
+                    <div class="list-group list-group-space mt-5">
+                        <a href="#" class="list-group-item list-group-item-action d-flex flex-column flex-md-row align-items-center px-sm text-center text-md-left box-shadow-2" data-toggle="tooltip" data-original-title="Start with this">
+                            <div class="mr-md-sm mb-4 mb-md-0">
+                                <img src="{{ url('theme://images/icons/dusk/png/small-business.png') }}" class="img-fluid">
+                            </div>
+                            <div class="list-group-content">
+                                <div class="h5">I want to build a bussiness website</div>
+                                <p class="text-sm">Great! You're on your way to reaching more online customers. Through a website you'll be visible to millions of new potential customers.</p>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex flex-column flex-md-row align-items-center px-sm text-center text-md-left box-shadow-2" data-toggle="tooltip" data-original-title="Start with this">
+                            <div class="mr-md-sm mb-4 mb-md-0">
+                                <img src="{{ url('theme://images/icons/dusk/png/template.png') }}" class="img-fluid">
+                            </div>
+                            <div class="list-group-content">
+                                <div class="h5">I want to showcase my work</div>
+                                <p class="text-sm">Showcasing work is not only important, it's critical for gaining peoples trust. You take care of your work - we help you showcase it online.</p>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex flex-column flex-md-row align-items-center px-sm text-center text-md-left box-shadow-2" data-toggle="tooltip" data-original-title="Start with this">
+                            <div class="mr-md-sm mb-4 mb-md-0">
+                                <img src="{{ url('theme://images/icons/dusk/png/card-payment.png') }}" class="img-fluid">
+                            </div>
+                            <div class="list-group-content">
+                                <div class="h5">I want to create an online store</div>
+                                <p class="text-sm">Our ecommerce solution helps businesses grow online. How? The answer is simple: planning is the key to starting a online store with long-term success.</p>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex flex-column flex-md-row align-items-center px-sm text-center text-md-left box-shadow-2" data-toggle="tooltip" data-original-title="Start with this">
+                            <div class="mr-md-sm mb-4 mb-md-0">
+                                <img src="{{ url('theme://images/icons/dusk/png/administrative-tools.png') }}" class="img-fluid">
+                            </div>
+                            <div class="list-group-content">
+                                <div class="h5">I want to build a web app</div>
+                                <p class="text-sm">Custom web application? Our developers are eager to hear from you. Check out our blog to read about the technologies we love working with too.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slice slice-lg pt-200">
+    <div class="container">
+        <div class="mb-md text-center">
+            <h3 class="heading h2">One website, different requirements</h3>
+            <div class="fluid-paragraph mt-3">
+                <p class="lead">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+            </div>
+        </div>
+        <div class="row row-grid">
+            <div class="col-lg-4">
+                <div class="px-4 text-center">
+                    <div class="mb-4">
+                        <div class="icon icon-lg icon-shape box-shadow-3 rounded-circle bg-primary text-white">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <h5 class="heading h5 mb-3">20+ Landing pages</h5>
+                    <p>With Purpose you get components and examples, including tons of variables that will help you customize this theme with ease.</p>
+                    <a href="#" class="btn btn-sm btn-outline-primary btn-circle mt-3">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="px-4 text-center">
+                    <div class="mb-4">
+                        <div class="icon icon-lg icon-shape box-shadow-3 rounded-circle bg-primary text-white">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <h5 class="heading h5 mb-3">Really useful features</h5>
+                    <p>With Purpose you get components and examples, including tons of variables that will help you customize this theme with ease.</p>
+                    <a href="#" class="btn btn-sm btn-outline-primary btn-circle mt-3">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="px-4 text-center">
+                    <div class="mb-4">
+                        <div class="icon icon-lg icon-shape box-shadow-3 rounded-circle bg-primary text-white">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                    </div>
+                    <h5 class="heading h5 mb-3">Highly customizable</h5>
+                    <p>With Purpose you get components and examples, including tons of variables that will help you customize this theme with ease.</p>
+                    <a href="#" class="btn btn-sm btn-outline-primary btn-circle mt-3">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slice pb-0 bg-secondary" data-delimiter-before="1" data-delimiter-after="1">
+    <div class="container">
+        <div class="row row-grid">
+            <div class="col-lg-3 align-self-center">
+                <h3 class="h3">Experience quality</h3>
+                <p class="lead mt-4">Purpose is a professional Bootstrap theme which includes over 150 ready to use layouts. From business and corporate to real estate, education, health and much more. It comes with three complete shop layouts.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="block block-image-holder px-4">
+                    <div class="block-image z-depth-2-top">
+                        <img src="{{ url('theme://images/prv/iphone-2.png') }}" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 align-self-end">
+                <div class="pb-5">
+                    <p class="pt-3">When you purchase Purpose you also get free updates for life and dedicated support from our team. You can now relax because we will take care of everything else.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slice slice-lg bg-size--contain">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="swiper-js-container">
+                    <div class="swiper-container" data-swiper-items="1" data-swiper-space-between="0" data-swiper-sm-items="1" data-swiper-sm-space-between="0" data-swiper-xs-items="1" data-swiper-xs-space-between="0">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="text-center">
+                                    <p class="h2 lh-160 text-gray font-italic font-weight-300" style="font-family: 'Playfair Display', serif;">"Amazing template! All-in-one, clean code, beautiful design, and really not hard to work with.Highly recommended for any kind on website."</p>
+                                    <div class="text-center mt-4">
+                                        <h3 class="h5">John Sullivan</h3>
+                                        <span class="lead text-muted">Slack</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="text-center">
+                                    <p class="h2 lh-160 text-gray font-italic font-weight-300" style="font-family: 'Playfair Display', serif;">"Amazing template! All-in-one, clean code, beautiful design, and really not hard to work with.Highly recommended for any kind on website."</p>
+                                    <div class="text-center mt-4">
+                                        <h3 class="h5">James Lewis</h3>
+                                        <span class="lead text-muted">Instagram</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include 'partials/cta.html.twig' %}
+{% endblock %}

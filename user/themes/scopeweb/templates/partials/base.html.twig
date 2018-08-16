@@ -31,6 +31,7 @@
         {% do assets.addJs('theme://vendor/fancybox/js/jquery.fancybox.min.js', {'priority':95, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/theme.min.js', {'priority':94, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/missed.js', {'priority':93, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/hotjar.js', {'priority':92, 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -82,7 +83,7 @@
                                 </div>
                                 <div>
                                     <span class="pl-3 d-inline-block">Scope Web LLC<br>
-                                    3333 Broadway, New York, NY, USA.
+                                    3333 Broadway, New York <br>NY 10031, USA
                                     </span>
                                 </div>
                             </li>
