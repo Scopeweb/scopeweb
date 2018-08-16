@@ -1,4 +1,4 @@
 ---
-title: Home - Scope Web
+title: Homepage
 visible: false
 ---

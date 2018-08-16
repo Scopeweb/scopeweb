@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include 'partials/metadata.html.twig' %}
 
-    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}" />
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
@@ -30,6 +30,7 @@
         {% do assets.addJs('theme://vendor/textarea-autosize/textarea-autosize.min.js', {'priority':96, 'group':'bottom'}) %}
         {% do assets.addJs('theme://vendor/fancybox/js/jquery.fancybox.min.js', {'priority':95, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/theme.min.js', {'priority':94, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/missed.js', {'priority':93, 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -49,7 +50,7 @@
                     {% include 'partials/navigation.html.twig' %}
                     <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                         <li class="nav-item mr-0">
-                            <a href="/contact" target="_blank" class="btn btn-sm btn-white btn-circle btn-icon d-none d-lg-inline-flex">
+                            <a href="/contact" class="btn btn-sm btn-white btn-circle btn-icon d-none d-lg-inline-flex">
                                 <span class="btn-inner--icon">💪</span>
                                 <span class="btn-inner--text">Let's get started</span>
                             </a>
@@ -149,10 +150,10 @@
         <div class="container">
             <div class="align-items-center">
                 <div class="text-center">
-                    <a href="{{ base_url }}">
-                        <img src="{{ url('theme://images/brand/icon.png') }}" class="alpha-6 alpha-10--hover" style="width: 110px;">
+                    <a href="{{ base_url == '' ? '/' : base_url }}">
+                        <img src="{{ url('theme://images/brand/scopeweb-o.png') }}" class="alpha-6 alpha-10--hover" style="width: 50px;">
                     </a>
-                    <span class="d-block mt-4">&copy; 2018 <a href="{{ base_url }}" class="footer-link" target="_blank">Scope Web LLC</a>. All rights reserved.</span>
+                    <span class="d-block mt-4">&copy; 2018 <a href="{{ base_url == '' ? '/' : base_url }}" class="footer-link" target="_blank">Scope Web LLC</a>. All rights reserved.</span>
                 </div>
             </div>
         </div>

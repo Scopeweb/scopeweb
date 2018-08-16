@@ -14,3 +14,4 @@ summary:
   delimiter: '==='
 blog:
   route: /blog
+title: Scope Web

@@ -1,0 +1,176 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <!-- Spotlight -->
+        <section class="slice slice-lg pb-250 bg-gradient-primary">
+            <div class="container pt-lg-md">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <h1 class="display-4 text-white lh-110">We create <span class="text-primary">kick-ass</span> products</h1>
+                        <p class="lead mb-4 text-white mt-4">Straight talk and good vibes 🙌 - we love building digital products that "simply work". Whether it is a basic landing page or a high-traffic social network, we are always in!</p>
+                        <div class="mt-5">
+                            <a href="#" class="btn btn-outline-white btn-icon btn-circle btn-translate--hover">
+                                <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                                <span class="btn-inner--text">Learn more</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-container" data-shape-style="curve" data-shape-position="bottom">
+                <svg class="shape-fill-white" fill="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path d="M 0 0 c 0 0 200 50 500 50 s 500 -50 500 -50 v 101 h -1000 v -100 z"></path>
+                </svg>
+            </div>
+        </section>
+        <section class="slice slice-lg pt-lg-sm">
+            <div class="container">
+                <div class="row row-grid">
+                    <div class="col-lg-3 mt--200">
+                        <div data-animate-hover="1">
+                            <div class="card shadow-sm animate-this">
+                                <div class="card-body py-5 px-lg-5">
+                                    <img src="{{ url('theme://images/icons/coding.svg') }}" style="width: 70px;">
+                                    <h5 class="h5 mt-4">Development</h5>
+                                    <p class="my-4">We like to remove the jargon and go back to basics; what are your objectives, what does your user want and need, and how do we make that happen?</p>
+                                    <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt--200">
+                        <div data-animate-hover="1">
+                            <div class="card shadow-sm animate-this">
+                                <div class="card-body py-5 px-lg-5">
+                                    <img src="{{ url('theme://images/icons/mobile-apps.svg') }}" style="width: 70px;">
+                                    <h5 class="h5 mt-4">Mobile Apps</h5>
+                                    <p class="my-4">Through the years we have forged our own development process. We offer a team that has deep knowledge in everything Mobile related.</p>
+                                    <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt--200">
+                        <div data-animate-hover="1">
+                            <div class="card shadow-sm animate-this">
+                                <div class="card-body py-5 px-lg-5">
+                                    <img src="{{ url('theme://images/icons/ui-ux-design.svg') }}" style="width: 70px;">
+                                    <h5 class="h5 mt-4">UI/UX Design</h5>
+                                    <p class="my-4">It’s not what you say, it’s what you do. Your website needs to tell a story to your visitors and customers. We understand the journey.</p>
+                                    <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt--200">
+                        <div data-animate-hover="1">
+                            <div class="card shadow-sm animate-this">
+                                <div class="card-body py-5 px-lg-5">
+                                    <img src="{{ url('theme://images/icons/marketing.svg') }}" style="width: 70px;">
+                                    <h5 class="h5 mt-4">Marketing</h5>
+                                    <p class="my-4">You have a vision, we have the SEO and Digital Marketing team to get you there. We use modern solutions to help you reach your goals.</p>
+                                    <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slice slice-lg pt-0 delimiter-bottom">
+            <div class="container">
+                <div class="mb-md text-center">
+                    <h3 class="heading h3">Some say agency - we say <span class="text-primary">team</span></h3>
+                    <div class="fluid-paragraph fluid-paragraph-sm text-center mt-4">
+                        <p class="lead lh-180">We play to our strengths. That's what we are good at. So what are these strengths we talk about?</p>
+                    </div>
+                </div>
+                <div class="row row-grid align-items-center justify-content-around">
+                    <div class="col-lg-5 order-lg-2">
+                        <div class="pr-md-4">
+                            <span class="badge badge-lg bg-blue alpha-8 text-white text-uppercase ls-1 font-weight-600 mb-3">Growing startups</span>
+                            <h3 class="heading h3">Change the way you reach your audience.</h3>
+                            <p class="lead my-4">You’ve got a great idea? You’re thinking about starting your own company or have already founded it? But now you are wondering how you can build on your idea effectively with an experienced team? We can help you out with that.</p>
+                            <a href="/contact" target="_blank" class="btn btn-primary btn-circle btn-icon mt-4">
+                                <span class="btn-inner--icon">👉
+                                <span class="btn-inner--text">Start a Project</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="position-relative" style="z-index: 10;">
+                            <img src="{{ url('theme://images/prv/startup.svg') }}" class="img-center img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slice slice-lg delimiter-bottom bg-secondary bg-cover bg-size--contain" style="background-image: url({{page.media[page.header.hero_image].url}}); background-position: center 10%">
+            <div class="container">
+                <div class="row row-grid align-items-center justify-content-around">
+                    <div class="col-lg-5">
+                        <div class="pr-md-4">
+                            <span class="badge badge-lg bg-blue alpha-8 text-white text-uppercase ls-1 font-weight-600 mb-3">Established Business</span>
+                            <h3 class="heading h3">Stuck in one place? Let's start growth hacking.</h3>
+                            <p class="lead my-4">You believe in passion, open minds, obsessing over the little details and so do we. You’ve worked out your idea, but it got a bit rusty over the years. We’ll help you brush off the dust and give you a kick-start.</p>
+                            <a href="/contact" target="_blank" class="btn btn-primary btn-circle btn-icon mt-4">
+                                <span class="btn-inner--icon">☝
+                                <span class="btn-inner--text">Grow your business</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative" style="z-index: 10;">
+                            <img src="{{ url('theme://images/prv/online-business.svg') }}" class="img-center img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slice slice-lg delimiter-bottom">
+            <div class="container">
+                <div class="row row-grid align-items-center justify-content-around">
+                    <div class="col-lg-5 order-lg-2">
+                        <div class="pr-md-4">
+                            <span class="badge badge-lg bg-blue alpha-8 text-white text-uppercase ls-1 font-weight-600 mb-3">Enterprise titan</span>
+                            <h3 class="heading h3">Let's move this beast towards revolution.</h3>
+                            <p class="lead my-4">You’re an established business, but you’re looking for something fresh and innovative. We can help you polish up, redevelop and rethink an existing idea to give it a new lease of life. We help you identify key opportunities and explore new platforms, technologies and possibilities.</p>
+                            <a href="/contact" target="_blank" class="btn btn-primary btn-circle btn-icon mt-4">
+                                <span class="btn-inner--icon">💪
+                                <span class="btn-inner--text">Revolution time</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="position-relative" style="z-index: 10;">
+                            <img src="{{ url('theme://images/prv/enterprise-titan.svg') }}" class="img-center img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slice slice-lg bg-secondary bg-cover bg-size--contain" style="background-image: url({{page.media[page.header.hero_image].url}}); background-position: center 10%">
+            <div class="container">
+                <div class="row row-grid align-items-center justify-content-around">
+                    <div class="col-lg-5">
+                        <div class="pr-md-4">
+                            <span class="badge badge-lg bg-blue alpha-8 text-white text-uppercase ls-1 font-weight-600 mb-3">Technology stack</span>
+                            <h3 class="heading h3">Effective tools &amp; technologies that take you one step further.</h3>
+                            <p class="lead my-4">With Boomerang you get components and examples, including tons of variables that will help you customize this theme with ease.</p>
+                            <a href="/contact" target="_blank" class="btn btn-primary btn-circle btn-icon mt-4">
+                                <span class="btn-inner--icon">✍
+                                <span class="btn-inner--text">Read our tech blog</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative" style="z-index: 10;">
+                            <img src="{{ url('theme://images/prv/tools.png') }}" class="img-center img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action -->
+        {% include 'partials/cta.html.twig' %}
+{% endblock %}
