@@ -19,6 +19,7 @@
         {% do assets.addCss('theme://css/theme.css', 98) %}
         {% do assets.addCss('theme://vendor/fancybox/css/jquery.fancybox.min.css', 97) %}
         {% do assets.addCss('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800', 96) %}
+        {% do assets.addCss('theme://css/cookie-consent.css', 95) %}
     {% endblock %}
     {{ assets.css() }}
 
@@ -32,6 +33,7 @@
         {% do assets.addJs('theme://js/theme.min.js', {'priority':94, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/missed.js', {'priority':93, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/hotjar.js', {'priority':92, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/cookie-consent.js', {'priority':91, 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -100,7 +102,7 @@
                                     <i class="fas fa-envelope-open"></i>
                                 </div>
                                 <div>
-                                    <span class="pl-3 d-inline-block">hello@scopeweb.nu</span>
+                                    <span class="pl-3 d-inline-block">info@scopeweb.nyc</span>
                                 </div>
                             </li>
                         </ul>
@@ -122,13 +124,13 @@
                 <div class="col-lg-2">
                     <h5 class="heading h6 text-uppercase font-weight-700 mb-3">Solutions</h5>
                     <ul class="list-unstyled">
-                        <li class="py-2"><a href="#">Web development</a>
+                        <li class="py-2"><a href="/services/web-development">Web development</a>
                         </li>
-                        <li class="py-2"><a href="#">UI &amp; UX design</a>
+                        <li class="py-2"><a href="/services">UI &amp; UX design</a>
                         </li>
-                        <li class="py-2"><a href="#">Consulting</a>
+                        <li class="py-2"><a href="/services">Consulting</a>
                         </li>
-                        <li class="py-2"><a href="#">App development</a>
+                        <li class="py-2"><a href="/services">App development</a>
                         </li>
                     </ul>
                 </div>
@@ -165,5 +167,18 @@
     {{ assets.js('bottom') }}
 {% endblock %}
 
+<script>
+        gdprCookieNotice({
+            locale: 'en', //This is the default value
+            timeout: 500, //Time until the cookie bar appears
+            expiration: 30, //This is the default value, in days
+            domain: '.scopeweb.nyc', //If you run the same cookie notice on all subdomains, define the main domain starting with a .
+            implicit: true, //Accept cookies on page scroll automatically
+            statement: 'https://scopeweb.nyc/cookie-policy', //Link to your cookie statement page
+            performance: [''], //Cookies in the performance category.
+            analytics: ['ga'], //Cookies in the analytics category.
+            marketing: ['SSID'] //Cookies in the marketing category.
+        });
+    </script>
 </body>
 </html>

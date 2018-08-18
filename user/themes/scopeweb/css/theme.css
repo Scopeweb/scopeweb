@@ -6302,7 +6302,7 @@ button.close {
 }
 
 .bg-primary {
-    background-color: #FC6464!important
+    background-color: #100548!important;
 }
 
 a.bg-primary:focus,
@@ -11005,7 +11005,7 @@ button.bg-lighter:hover {
 
 @media (max-width:991.98px) {
     [data-shape-style=curve] {
-        height: 40px
+        height: 36px
     }
 }
 
