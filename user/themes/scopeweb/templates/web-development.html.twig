@@ -9,6 +9,9 @@
     {% do assets.addJs('theme://vendor/fontawesome/js/fontawesome-all.min.js', {'priority':97, 'group':'bottom'}) %}
     {% do assets.addJs('theme://vendor/swiper/js/swiper.min.js', {'priority':96, 'group':'bottom'}) %}
     {% do assets.addJs('theme://js/theme.min.js', {'priority':95, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://js/missed.js', {'priority':94, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/hotjar.js', {'priority':93, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/cookie-consent.js', {'priority':92, 'group':'bottom'}) %}
 {% endblock %}
 {{ assets.js() }}
 
@@ -16,6 +19,7 @@
     {% do assets.addCss('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800', 100) %}
     {% do assets.addCss('theme://vendor/swiper/css/swiper.min.css', 99) %}
     {% do assets.addCss('theme://css/theme.css', 98) %}
+    {% do assets.addCss('theme://css/cookie-consent.css', 97) %}
 {% endblock %}
 {{ assets.css() }}
 
@@ -89,7 +93,7 @@
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <div class="px-6">
-                    <img class="img-fluid" src="{{ url('theme://images/highlights/project-planning.png') }}" alt="Project planning">
+                    <img class="img-fluid rounded shadow" src="{{ url('theme://images/highlights/project-planning.png') }}" alt="Project planning">
                 </div>
             </div>
         </div>
@@ -100,7 +104,7 @@
         <div class="row row-grid">
             <div class="col-lg-5">
                 <div class="px-6">
-                    <img class="img-fluid" src="{{ url('theme://images/highlights/next-steps.png') }}" alt="Next steps">
+                    <img class="img-fluid rounded shadow" src="{{ url('theme://images/highlights/next-steps.png') }}" alt="Next steps">
                 </div>
             </div>
             <div class="col-lg-6 offset-lg-1">
