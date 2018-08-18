@@ -168,17 +168,27 @@
 {% endblock %}
 
 <script>
-        gdprCookieNotice({
-            locale: 'en', //This is the default value
-            timeout: 500, //Time until the cookie bar appears
-            expiration: 30, //This is the default value, in days
-            domain: '.scopeweb.nyc', //If you run the same cookie notice on all subdomains, define the main domain starting with a .
-            implicit: true, //Accept cookies on page scroll automatically
-            statement: 'https://scopeweb.nyc/cookie-policy', //Link to your cookie statement page
-            performance: [''], //Cookies in the performance category.
-            analytics: ['ga'], //Cookies in the analytics category.
-            marketing: ['Hotjar, hjUserId, _hjIncludedInSample'] //Cookies in the marketing category.
-        });
-    </script>
+    gdprCookieNotice({
+        locale: 'en', //This is the default value
+        timeout: 500, //Time until the cookie bar appears
+        expiration: 30, //This is the default value, in days
+        domain: '.scopeweb.nyc', //If you run the same cookie notice on all subdomains, define the main domain starting with a .
+        implicit: true, //Accept cookies on page scroll automatically
+        statement: 'https://scopeweb.nyc/cookie-policy', //Link to your cookie statement page
+        performance: [''], //Cookies in the performance category.
+        analytics: ['ga'], //Cookies in the analytics category.
+        marketing: ['Hotjar, hjUserId, _hjIncludedInSample'] //Cookies in the marketing category.
+    });
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104437451-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-118350668-1');
+</script>
+
 </body>
 </html>
