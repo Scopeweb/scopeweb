@@ -1,0 +1,99 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<!-- Spotlight -->
+<section class="slice slice-xl pb-md">
+    <div class="container">
+        <div class="row row-grid justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h6 class="text-uppercase ls-2 text-muted font-weight-700">Careers</h6>
+                <h2 class="heading h1 mb-4">Help shape our future</h2>
+                <p class="lead lh-180">Our secret lies in our unique company culture. We started out as a group of friends, and we're still a group of friends. We just happen to be professionals, too.</p>
+                <div class="mt-5">
+                    <a href="/contact" class="btn btn-primary btn-circle px-5 mr-lg-4">Contact us</a>
+                    <a href="https://www.youtube.com/watch?v=4TBd_A7lLH8" class="btn btn-outline-primary btn-icon btn-circle px-4" data-fancybox>
+                        <span class="btn-inner--icon"><i class="fas fa-play"></i></span>
+                        <span class="btn-inner--text">Watch our video</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row row-grid pt-md mt-md" data-delimiter-before="1">
+            <div class="col-lg-4">
+                <div class="d-flex align-items-start">
+                    <div class="icon icon-lg text-primary">
+                        <img src="{{ url('theme://images/icons/dusk/png/teacher-hiring.png') }}" class="img-fluid">
+                    </div>
+                    <div class="icon-text px-4">
+                        <h5 class="heading h5">Benefits</h5>
+                        <p class="mb-0">All you have to do is to bring your passion. We take care of the rest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex align-items-start">
+                    <div class="icon icon-lg text-primary">
+                        <img src="{{ url('theme://images/icons/dusk/png/stairs-up.png') }}" class="img-fluid">
+                    </div>
+                    <div class="icon-text px-4">
+                        <h5 class="heading h5">Intense growth</h5>
+                        <p class="mb-0">We give you the right tools so you can reach your potential.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex align-items-start">
+                    <div class="icon icon-lg text-primary">
+                        <img src="{{ url('theme://images/icons/dusk/png/queue.png') }}" class="img-fluid">
+                    </div>
+                    <div class="icon-text px-4">
+                        <h5 class="heading h5">Fortnite Fridays</h5>
+                        <p class="mb-0">Our rockstar team will deliver you the win to brag to your friends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slice slice-lg bg-gradient-primary">
+    <span class="tongue tongue-top"><i class="fas fa-angle-down"></i></span>
+    <div class="container">
+        <div class="mb-md text-center">
+            <h3 class="heading h2 text-white">Do something you love 💖</h3>
+            <div class="fluid-paragraph mt-3">
+                <p class="lead text-white">We know to do our best work, solid work life balance is required. Our remote team has great perks and plenty of time off.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="table-responsive-lg">
+                    <table class="table table-hover table-scale--hover table-cards align-items-center">
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <span class="avatar avatar-lg bg-pink rounded mr-4">SR</span>
+                                        <div class="media-body">
+                                            <a href="/careers/sales-representative" class="h5 mb-0">Sales Representative</a>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td>
+                                    <span class="h6">Full time</span>
+                                </td>
+                                <td><i class="fas fa-map-marker mr-3"></i><span class="h6">Remote, US</span>
+                                </td>
+                            </tr>
+                            <tr class="table-divider"></tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                {# <div class="text-center mt-5">
+                    <a href="#" class="text-white"><i class="fas fa-angle-right mr-2"></i>View all job openings</a>
+                </div> #}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
