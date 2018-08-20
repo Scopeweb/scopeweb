@@ -1,5 +1,5 @@
 ---
-title: 'Digital and Design News, Tips and Updates from Scope Web'
+title: 'Web and design news, tips and updates from our team'
 menu: Blog
 content:
     items: '@self.children'
