@@ -1,0 +1,21 @@
+<div class="col-lg-4">
+    <div class="card shadow-sm shadow--hover">
+        <img src="{{ post.media[post.header.image].cropResize(350, 230).url }}" class="card-img-top">
+        <div class="card-body py-5 text-center">
+            <a href="{{ post.url }}" class="h5 lh-150">{{ post.title }}</a>
+            <h6 class="text-muted mt-4 mb-0"><time datetime="{{ post.date | date(site.date_long) }}">{{ post.date | date(site.date_long) }}</time></h6>
+        </div>
+        <div class="card-footer">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="media align-items-center mt-5">
+                        <img alt="Image" src="{{ post.media[post.header.author.image].url }}" class="avatar avatar-sm mr-3">
+                        <div class="media-body">
+                            <span class="h6 mb-0">{{ post.header.author.name }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

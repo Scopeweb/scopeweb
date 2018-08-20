@@ -1,0 +1,198 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set header_image = page.media[page.header.postimage] %}
+
+{% block content %}
+<section class="slice slice-lg">
+            <div class="container pt-lg-lg">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        <h1 class="lh-150 mb-3">{{ page.header.title }}</h1>
+                        <p class="lead text-muted mb-0">{{ page.header.description }}</p>
+                        <div class="media align-items-center mt-5">
+                            <img alt="Image" src="{{ page.media[page.header.author.image].url }}" class="avatar avatar-sm mr-3">
+                            <div class="media-body">
+                                <span class="h6 mb-0">{{ page.header.author.name }}</span>
+                                <span class="text-small text-muted"><time datetime="{{ post.date | date(site.date_short) }}">{{ post.date | date(site.date_short) }}</time></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-cover bg-size--cover" style="height: 600px; background-image: url({{ header_image.url }}); background-position: top center;"></section>
+        <section class="slice">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <!-- Article body -->
+                        <article>
+                            {{ page.content }}
+                        </article>
+                        <hr>
+                        {% include 'partials/disqus.html.twig' %}
+                        {# <h5 class="mb-4">Comments</h5>
+                        <div class="p-5 bg-secondary border rounded">
+                            <div class="media">
+                                <img class="rounded-circle shadow mr-4" src="../assets/img/prv/team-1-800x800.jpg" style="width: 64px;" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Media heading</h5>
+                                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                                        lacinia congue felis in faucibus.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#" class="text-light">Like</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-light">Reply</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-light">Report</a>
+                                        </li>
+                                    </ul>
+                                    <div class="media mt-5">
+                                        <a class="pr-4" href="#">
+                                            <img src="../assets/img/prv/team-2-800x800.jpg" class="rounded-circle shadow" style="width: 64px;" alt="Generic placeholder image">
+                                        </a>
+                                        <div class="media-body">
+                                            <h5 class="mt-0">Media heading</h5>
+                                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                                                Donec lacinia congue felis in faucibus.</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><a href="#" class="text-light">Like</a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#" class="text-light">Reply</a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#" class="text-light">Report</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media mt-5">
+                                <img class="rounded-circle shadow mr-4" src="../assets/img/prv/team-3-800x800.jpg" style="width: 64px;" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Media heading</h5>
+                                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                                        lacinia congue felis in faucibus.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#" class="text-light">Like</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-light">Reply</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-light">Report</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Comment form -->
+                            <h5 class="mt-5 mb-4">Add you comment</h5>
+                            <form class="form-secondary" role="form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="sr-only">Your name</label>
+                                            <input class="form-control form-control-lg" placeholder="Your name" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="sr-only">Email address</label>
+                                            <input class="form-control form-control-lg" placeholder="Email address" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only">Phone number</label>
+                                    <input class="form-control form-control-lg" placeholder="Phone number" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only">Type your message</label>
+                                    <textarea class="form-control form-control-lg textarea-autosize" rows="3" placeholder="Type your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-block btn-primary shadow mt-4">Reply</button>
+                            </form>
+                        </div> #}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slice slice-lg bg-secondary" data-delimiter-before="1" data-delimiter-after="1">
+            <div class="container">
+                <div class="mb-md text-center">
+                    <h3 class="heading h2">Latest from the blog</h3>
+                    <div class="fluid-paragraph mt-3">
+                        <p class="lead">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                    </div>
+                </div>
+                <div class="row row-grid">
+                {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 3) %}
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm shadow--hover">
+                            <img src="{{ post.media[post.header.image].url }}" class="card-img-top">
+                            <div class="card-body py-5 text-center">
+                                <a href="#" class="h5 lh-150">{{ post.title }}</a>
+                                <h6 class="text-muted mt-4 mb-0"><time datetime="{{ post.date | date(site.date_long) }}">{{ post.date | date(site.date_long) }}</time></h6>
+                            </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-light"><i class="fas fa-share mr-1 text-muted"></i> 131</a>
+                                            </li>
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-light"><i class="fas fa-eye mr-1 text-muted"></i> 255</a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="text-light"><i class="fas fa-comments mr-1 text-muted"></i> 14</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+            <div class="container">
+                <div class="mb-md text-center">
+                    <div class="text-center mt-md">
+                        <a href="/blog" class="btn btn-info btn-circle btn-translate--hover mr-4 btn-icon px-5">
+                            <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                            <span class="btn-inner--text">Blog overview</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        {# 
+        <!-- todo: add mailchimp signup -->
+        <section class="slice py-5 bg-primary">
+            <div class="container">
+                <div class="row row-grid align-items-center justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="pr-lg-5 text-center text-lg-right">
+                            <h5 class="text-white mb-0">Sign up for the weekly newsletter:</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form role="form">
+                            <div class="form-group shadow mb-0">
+                                <div class="input-group input-group-transparent input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white border-right-0"><i class="fas fa-envelope-open"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control border-left-0" placeholder="Enter your email ...">
+                                    <div class="input-group-append">
+                                        <button type="button" class="btn btn-dark">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> #}
+{% endblock %}
