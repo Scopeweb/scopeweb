@@ -15,6 +15,10 @@ author:
     image: author-stephan.jpg
     twitter: 'https://www.twitter.com/stmoerman'
 cover: mountains.jpg
+postimage: postimage.jpg
+navcolor:
+    -
+        navbar-light bg-light
 ---
 
 # Customers don't knock down your door!
@@ -25,7 +29,7 @@ The freelance productivity or productivity of most freelancers can be improved. 
 <br>
 Increasing productivity as a freelancer is only possible if you know where your productivity is lacking. Actually it is necessary to measure productivity so that you can analyze where things go wrong. You can measure your Freelance productivity by "tracking" each task. Write down how long you should work on something. Do you spend much longer? Then, after completing the task, examine what causes this. Have you been called more often than normal or is it because you are too distracted by social media? Keep this up for one week to calculate your productivity. This way you know to what extent you are dealing with low productivity, so you also know how to increase productivity. The following 5 tips can help you.
 
-![Do not be busy - be productive.](a1-time-management.png)
+![Do not be busy - be productive.](a1-time-management.png) {.img-fluid .mb-5}
 
 ## 1. Take care of your mental health
 <br>

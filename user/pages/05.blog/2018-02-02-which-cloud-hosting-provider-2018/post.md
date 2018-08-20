@@ -30,7 +30,7 @@ The cloud is becoming more and more affordable!
 
 Let's start by comparing the products offered by those providers.
 
-![Comparison Cloud Hosting offer](a1-vps-comparison-chart.png) {.img-fluid}
+![Comparison Cloud Hosting offer](a1-vps-comparison-chart.png) {.img-fluid .mb-5}
 
 <sub><sup>[0] The OVH SSD VPS product line is local storage, whereas the regular public cloud is not. Scaleways VPS series is local storage, while Bare Metal has a network storage.<br>
 [1] Block Storage on Scaleway is only offered in 150 GB chunks and only 10 blocks per copy.<br>
@@ -39,7 +39,7 @@ Let's start by comparing the products offered by those providers.
 
 Now that we know which company delivers which products, we will look at the prices of virtual machines. Because this is the basis for most projects and the most important aspect. Because these providers offer a cheap access plan but become non-linearly more expensive, we will compare the 2GB RAM offer from all those companies.
 
-![Comparison Cloud Hosting prices](comparison-cloud-prices.png) {.img-fluid}
+![Comparison Cloud Hosting prices](comparison-cloud-prices.png) {.img-fluid .mb-5}
 
 What we see here is the data on the price page. But do not compare it, because the CPU models range from 'cheap' Atom cores to ordinary, Cloud-like E5 copies. Scaleway also has a very strange storage system that is not local, unlike all other companies. It is a solution for network storage that can sometimes become very slow and very unpredictable. But we will see all these details in the benchmarks.
 
@@ -50,7 +50,7 @@ All companies show the (virtual) core count in their price overview, but which C
 ### DigitalOcean CPU model
 <br>
 
-![Comparison Cloud CPU performance per location](cloud-cpu-performance-comparison.png) {.img-fluid}
+![Comparison Cloud CPU performance per location](cloud-cpu-performance-comparison.png) {.img-fluid .mb-5}
 
 <sub><sup>[0] Disclaimer: It is not visible which exact model Vultr and OVH use. OVH states on their website that they use an E5v3 with 2.4 GHz corresponding to the QEMU version and therefore can only be an E5-2620 v3 or E5-2630 v3.</sub></sup>
 
@@ -71,7 +71,7 @@ sysbench --test=cpu --cpu-max-prime=20000 --num-threads=1 run
 sysbench --test=cpu --cpu-max-prime=20000 --num-threads=2 run
 ```
 <br>
-![CPU location benchmark](cpu-benchmark-location.png) {.img-fluid}
+![CPU location benchmark](cpu-benchmark-location.png) {.img-fluid .mb-5}
 
 Lower is of course better, this means that Vultr wins the single thread benchmark. To our surprise, the two Atom cores have defeated two E5 L-CPUs, but only in Location 1! Good thing we ran the benchmark at two different locations 😉. The CPU performance of OVH is actually quite amazing, if you think about it that this machine only costs $3.50 per month.
 
@@ -82,7 +82,7 @@ ffmpeg -i download.mp4 -vf scale=1920:1080 -c:v h264 -b:v 5000k -minrate 5000k -
 `
 
 <br>
-![CPU video encoding 4K](cpu-video-encoding-4k.png) {.img-fluid}
+![CPU video encoding 4K](cpu-video-encoding-4k.png) {.img-fluid .mb-5}
 
 What we can see here is that those Scaleway Atoms are not really that fast in a real-world scenario. We must not forget that DigitalOcean and Scaleway have two threads compared to one thread, so it's no surprise that DigitalOcean delivers slightly better performance. I think the host system on location 1 was very busy, because Linode, Vultr and OVH defeated two threads with only one!
 
@@ -98,7 +98,7 @@ We use fio to test disk performance. This is not a usual use-case, but gives us 
 
 `fio --name=randread --ioengine=libaio --iodepth=16 --rw=randread --bs=4k --direct=1 --size=512M --numjobs=8 --runtime=240 --group_reporting`
 
-![Cloud Hosting Disk Performance](VPS-cloud-disk-performance.png) {.img-fluid}
+![Cloud Hosting Disk Performance](VPS-cloud-disk-performance.png) {.img-fluid .mb-5}
 
 We are really surprised at how bad OVH is in this benchmark, claiming they have local RAID 10 storage, so they may be limited. We can not imagine that there are so many "noisy neighbors" in two locations, but we can not say that with certainty.
 
@@ -128,7 +128,7 @@ Each test was performed 5 times within a time frame of 5 minutes. The stated val
 
 `wget -O /dev/null http://fra.download.10gbps.io/10000mb.bin ––––– for Scaleway AMS: wget -O /dev/null http://ams.download.10gbps.io/10000mb.bin`
 
-![Public test files](vps-public-test-files-network-test.png) {.img-fluid}
+![Public test files](vps-public-test-files-network-test.png) {.img-fluid .mb-5}
 
 ```
 $ wget -O /dev/null private_ip
@@ -144,7 +144,7 @@ $ iperf3 -c private_ip -i 1 -t 30
 $ iperf3 -c public_ip -i 1 -t 30
 ```
 
-![Network test on public and private network](vps-public-and-private-network.png) {.img-fluid}
+![Network test on public and private network](vps-public-and-private-network.png) {.img-fluid .mb-5}
 
 We can see that no matter what we do, OVH allows us to continuously crack the 100 Mbps. Furthermore, it is strange to see that the private network of Vultr is pretty bad and that the public network is much better, if not the best. It's pretty cool to be able to push more than 5 Gbps on a $ 10 Vultr machine, what we see here is that the drive is slower than the network, who would have thought so! DigitalOcean and Linode are great because they offer a more consistent performance. Scaleway is below average and it was very strange that we sometimes pushed more than 200 MB/sec, but after a few seconds it always went below 80 MB/s.
 

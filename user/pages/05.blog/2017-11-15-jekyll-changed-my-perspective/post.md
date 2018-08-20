@@ -15,6 +15,10 @@ author:
     image: author-nathan.jpg
     twitter: 'https://www.twitter.com/mrdemonwolf'
 cover: change.jpg
+postimage: postimage.jpg
+navcolor:
+    -
+        navbar-light bg-light
 ---
 
 # Jekyll changed my perspectives!
@@ -25,7 +29,7 @@ How did Jekyll change my life? I want to take the time to summarize my experienc
 <br>
 Jekyll was a great experience for me and it served me well for my personal website - [mrdemonwolf.me](https://www.mrdemonwolf.me) - but I hope there will soon be a stronger set of documentation, especially when it comes to to Liquid Templating and the (hidden) powers it offers. These tricks, conceived by one of Scope Web's senior engineers, gave me the opportunity to dynamically create the portfolio items that I wanted to add for my personal website during the build. What I do want to emphasize is that these functions for the dynamic creation of content have really given me a good insight into slightly more advanced templates.
 
-![Jekyll Logo](jekyll.png)
+![Jekyll Logo](jekyll.png) {.img-fluid .mb-5}
 
 For now I am exploring the possibilities to build more Jekyll projects, such as a blog, because I will continue to work on projects with increasingly larger formats. In any case, it is a very powerful tool to make static (GitHub Pages) websites quite easy and allow simple changes, such as adding new blog entries.
 

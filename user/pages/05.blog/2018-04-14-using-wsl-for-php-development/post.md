@@ -32,7 +32,7 @@ The switch from XAMPP to WSL seemed daunting at first glance, especially conside
 
 Out of the box WSL doesn't have any of the packages installed that Grav needs to run. You can opt in for either Nginx or Apache2 and on the [Grav website](https://learn.getgrav.org/webservers-hosting/servers/nginx) you can read more about Nginx. In this post I'm going to use Apache2 as our web servers use Apache2.
 
-![Always try to avoid having a mismatch in environments locally and on your web server.](a1-devops.png) {.img-fluid}
+![Always try to avoid having a mismatch in environments locally and on your web server.](a1-devops.png) {.img-fluid .mb-5}
 
 Even though many developers seem to prefer Mac or Linux, Microsoft has really surprised the community lately with many of their business choices. Open sourcing tons of stuff such as .NET Core and then integrating Linux in the middle of Windows 10. The promise of having access to all software now instead of tying yourself down to a maintenance intensive Linux based OS is very promising, right?!
 
@@ -44,11 +44,11 @@ Alright enough talk, let's dive into the steps you I took and the information I 
 <br>
 The first step requires us, if you haven't already, to enable the Windows Subsystem for Linux feature. Simply type Feature in the windows search bar and open **Turn Windows features on or off**. After enabling the feature a restart is necessary and you'll be prompted to do it right away.
 
-![Windows Subsystem for Linux feature enabled](feature-wsl.png) {.img-fluid}
+![Windows Subsystem for Linux feature enabled](feature-wsl.png) {.img-fluid .mb-5}
 
 Having enabled the feature we can now go into the Microsoft Store App and find the Linux distribution that we will be using in this example, Ubuntu.
 
-![Microsoft Store Ubuntu installation](microsoft-store-ubuntu.png) {.img-fluid}
+![Microsoft Store Ubuntu installation](microsoft-store-ubuntu.png) {.img-fluid .mb-5}
 
 After installation you can simply launch the Ubuntu 'app' and you'll be prompted with a few initial questions to set a username and a password. You've automatically got sudo access so there's no need for any additional setup.
 
@@ -92,7 +92,7 @@ You can ofcourse change this to whatever folder you use on your **C:/** drive. F
 
 Hoorah! 🎉we've linked our Apache root folder to our projects folder. We can verify this by moving into our WSL Apache directory and running the `ls -l` command to output the results.
 
-![WSL Symlink to Windows 10 C:\ Drive](wsl-symlink.png) {.img-fluid}
+![WSL Symlink to Windows 10 C:\ Drive](wsl-symlink.png) {.img-fluid .mb-5}
 
 ## Setting up local host files
 <br>
@@ -102,7 +102,7 @@ First, you'll want to open Notepad as **Administrator**. Next we click Ctrl + O 
 
 Your default host file should look something like this:
 
-![Windows 10 hosts file](hosts-file.png) {.img-fluid}
+![Windows 10 hosts file](hosts-file.png) {.img-fluid .mb-5}
 
 On the bottom we now add a line that points to an Apache2 config file we will create in the next step:
 ```

@@ -41,7 +41,7 @@ You have less distraction from colleagues or other freelancers at home. For exam
 
 A big advantage of working from home is that it does not entail extra costs. Renting an office space or a flexible workplace can be a cost item for which you (currently) do not have available budget. Working from home can sometimes be lonely and also limits your daily movement. The average home-working freelancer is therefore heavier than in the office.
 
-![Office noise causes stress](a1-stress.png)
+![Office noise causes stress](a1-stress.png) {.img-fluid .mb-5}
 
 ## Working at an office
 <br>

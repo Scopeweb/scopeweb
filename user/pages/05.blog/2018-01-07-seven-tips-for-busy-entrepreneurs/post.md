@@ -29,7 +29,7 @@ Entrepreneurship is a state of mind that brings many personal and professional t
 
 As a result, entrepreneurs must jump between tasks, hop on demand, attend events, and be extra careful with each and every decision for their business effort. Managing their time in the right way is an indispensable skill and, in the long run, extremely rewarding.
 
-![Entrepreneurs want to continue, have to go on and on and on. Until it is suddenly too much.](burnout.png) {.img-fluid}
+![Entrepreneurs want to continue, have to go on and on and on. Until it is suddenly too much.](burnout.png) {.img-fluid .mb-5}
 
 Burn-out is a critical condition of complete mental and physical exhaustion through stress, often caused by working 80-hour weeks (or more) and seeing little to no progress on your activities. While entrepreneurs are at risk of burning out more often, an interesting study of 200 American employees - full-time and part-time employees, together with independent freelancers and entrepreneurs - revealed a surprising reaction from 50% of the self-employed indication of zero burnout.
 
@@ -61,7 +61,7 @@ In addition, it is very important to keep an agenda. This can be done on paper, 
 
 Work out your entire week every Sunday for every task you have not planned yet. This way you can start each day by going through the agenda and showing yourself what you want to do at the end of the day. Important when creating a task list is that the tasks are feasible. There must also be room for emergency tracks in between, so keep space for it.
 
-![Plan your week, do not leave it to fate](agenda.png) {.img-fluid}
+![Plan your week, do not leave it to fate](agenda.png) {.img-fluid .mb-5}
 
 ## One thing at a time
 <br>
@@ -83,7 +83,7 @@ Review your business plan and set up some KPIs. Assign a few milestones to them 
 
 By defining the familiar tasks that are crucial to your success in the long run, you can determine the expected outcome and measure it once or twice a month. You also get a clearer picture of your weekly availability and stop the excessive use of your buffers by putting too much on your plate.
 
-![Do not waste time on a comprehensive business plan, but make a roadmap for 12 months](roadmap.png) {.img-fluid}
+![Do not waste time on a comprehensive business plan, but make a roadmap for 12 months](roadmap.png) {.img-fluid .mb-5}
 
 ## Reality Check
 <br>

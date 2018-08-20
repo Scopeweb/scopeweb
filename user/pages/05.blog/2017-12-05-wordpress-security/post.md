@@ -14,6 +14,10 @@ author:
     image: author-nathan.jpg
     twitter: 'https://www.twitter.com/mrdemonwolf'
 cover: security.jpeg
+postimage: postimage.jpg
+navcolor:
+    -
+        navbar-light bg-light
 ---
 
 # What can you do to improve WordPress security?
@@ -42,7 +46,7 @@ The third and final phase is about how you respond to a hack. Do you have a plan
 
 If you are well prepared, you can quickly restore a hacked website. However, you must have a plan ready. If you do not have a plan, a hack can mean the end of your website!
 
-![A huge pitfall at WordPress remains security](a1-wordpress-security.png)
+![A huge pitfall at WordPress remains security](a1-wordpress-security.png) {.img-fluid .mb-5}
 
 # Let's start!
 
@@ -110,7 +114,7 @@ You can make backups manually, but the easiest way is to use a plug-in for this.
 
 If your website is hacked, do not forget to check your site for leaks. After all, someone has managed to hack your website and if you do not discover the cause and solve it, someone can hack your website again!
 
-![A backup is very important to prevent data loss](security-wp.png)
+![A backup is very important to prevent data loss](security-wp.png) {.img-fluid .mb-5}
 
 ## Useful plug-ins for WordPress security
 <br>

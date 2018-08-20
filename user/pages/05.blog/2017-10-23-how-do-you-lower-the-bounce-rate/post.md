@@ -15,6 +15,10 @@ author:
     image: author-stephan.jpg
     twitter: 'https://www.twitter.com/stmoerman'
 cover: a1-bouncerate.jpeg
+postimage: postimage.jpg
+navcolor:
+    -
+        navbar-light bg-light
 ---
 
 # What is bounce rate? The definition.
@@ -35,7 +39,9 @@ CTR stands for ClickTroughRate. What percentage of your total clicks, via a link
 
 Google denies the use of Google Analytics data (such as bounce rate) for the Google rankings:
 
-<iframe width="400" height="245" src="https://www.youtube.com/embed/CgBw9tbAQhU"></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/CgBw9tbAQhU" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+</div>
 
 
 ## Meta tags can help
@@ -48,7 +54,9 @@ Normally the bounce rate is between 20 and 50%. The question is whether you shou
 
 Watch this YouTube video where in a very short time some of the later mentioned tips are discussed:
 
-<iframe width="400" height="245" src="https://www.youtube.com/embed/8cVUOrsrVIQ"></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/8cVUOrsrVIQ" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+</div>
 
 ## Some of our tips:
 

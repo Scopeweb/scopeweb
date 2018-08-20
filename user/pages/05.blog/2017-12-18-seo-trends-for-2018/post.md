@@ -37,7 +37,11 @@ This also requires a different approach for SEO. Where you have previously optim
 <br>
 Visual search develops better and faster. Previously, Google could only understand images by looking at the textual information that was added by, for example, the webmaster. For example, consider the filename, alt tag, and the _title attribute_.
 
-With the internet becoming more and more visually oriented, it is becoming increasingly important for search engines such as Google and Bing and social media networks such as Pinterest and Instagram to 'read' and understand visual content. Pinterest introduced at the beginning of this year the [Pinterest Lens](https://blog.pinterest.com/en/search-outside-box-new-pinterest-visual-discovery-tools) and AliExpress also uses visual search in their app. These technology companies therefore invest a lot in creating and improving their [visual search engines](https://www.youtube.com/watch?v=GtDhZb1nNF0).
+With the internet becoming more and more visually oriented, it is becoming increasingly important for search engines such as Google and Bing and social media networks such as Pinterest and Instagram to 'read' and understand visual content. Pinterest introduced at the beginning of this year the [Pinterest Lens](https://blog.pinterest.com/en/search-outside-box-new-pinterest-visual-discovery-tools) and AliExpress also uses visual search in their app. These technology companies therefore invest a lot in creating and improving their visual search engines.
+
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/GtDhZb1nNF0" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+</div>
 
 Visual search recognizes images through advanced artificial intelligence. A common application is _reverse image search_. You drag an image or photo to a search window, after which it is matched with all the images in the database. The best matching images are then displayed. The difference with simple search in Google images is that you do not enter a search term, but drag an image to the search window.
 
@@ -53,7 +57,7 @@ Link building is something that you have to pay a lot of attention to. Do this w
 
 In addition, the focus in 2018 must be on setting up sustainable relationships within and outside your network. For example, if you offer a broker training, you can approach graduate brokers with the request to state on their websites that they have completed their broker training at your educational institution. You can also approach other less relevant parties (with whom you collaborate) for an online collaboration. Think of a caterer, cleaning company or printing company. In this way you arrive at a natural and balanced backlink profile.
 
-![Google SEO under the hood](a1-seo-image-2.png) {.img-fluid}
+![Google SEO under the hood](a1-seo-image-2.png) {.img-fluid .mb-5}
 
 ## The ease of use of the website is and remains essential
 <br>
