@@ -9,9 +9,9 @@
     {% do assets.addJs('theme://vendor/fontawesome/js/fontawesome-all.min.js', {'priority':97, 'group':'bottom'}) %}
     {% do assets.addJs('theme://vendor/swiper/js/swiper.min.js', {'priority':96, 'group':'bottom'}) %}
     {% do assets.addJs('theme://js/theme.min.js', {'priority':95, 'group':'bottom'}) %}
-    {% do assets.addJs('theme://js/missed.js', {'priority':94, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/hotjar.js', {'priority':93, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/cookie-consent.js', {'priority':92, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://js/missed.min.js', {'priority':94, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/hotjar.min.js', {'priority':93, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/cookie-consent.min.js', {'priority':92, 'group':'bottom'}) %}
 {% endblock %}
 {{ assets.js() }}
 
