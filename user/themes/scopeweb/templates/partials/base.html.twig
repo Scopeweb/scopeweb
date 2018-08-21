@@ -13,6 +13,8 @@
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
+    {% include 'partials/gtag.html.twig' %}
+
     {% block stylesheets %}
         {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
@@ -40,6 +42,8 @@
 {% endblock head%}
 </head>
 <body>
+
+{% include 'gtagbd.html.twig' %}
 
 {% block header %}
     <header>
