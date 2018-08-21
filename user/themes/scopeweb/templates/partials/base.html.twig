@@ -16,10 +16,10 @@
     {% block stylesheets %}
         {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('theme://css/theme.css', 98) %}
+        {% do assets.addCss('theme://css/theme.min.css', 98) %}
         {% do assets.addCss('theme://vendor/fancybox/css/jquery.fancybox.min.css', 97) %}
         {% do assets.addCss('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800', 96) %}
-        {% do assets.addCss('theme://css/cookie-consent.css', 95) %}
+        {% do assets.addCss('theme://css/cookie-consent.min.css', 95) %}
     {% endblock %}
     {{ assets.css() }}
 
