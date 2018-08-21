@@ -35,6 +35,3 @@ tests/_output/*
 tests/_support/_generated/*
 tests/cache/*
 tests/error.log
-
-# htaccess for local redirect errors
-/.htaccess
