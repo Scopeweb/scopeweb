@@ -13,7 +13,7 @@
                             <img alt="Image" src="{{ page.media[page.header.author.image].url }}" class="avatar avatar-sm mr-3">
                             <div class="media-body">
                                 <span class="h6 mb-0 mr-4">{{ page.header.author.name }}</span>
-                                <span class="text-small text-muted"><time datetime="{{ post.date | date(site.date_short) }}">{{ post.date | date(site.date_short) }}</time></span>
+                                <span class="text-small text-muted"><time datetime="{{ page.date | date(site.date_short) }}">{{ page.date | date(site.date_short) }}</time></span>
                             </div>
                         </div>
                     </div>
