@@ -52,6 +52,6 @@ If your website does not yet have a valid SSL certificate with HTTPS connection,
 Does your website already have an HTTPS connection? You’re doing the right thing! Just be aware of this change, but you won’t have to make any changes.
 <div class="mb-5"></div>
 
-_Thanks for reading! Feel free to clap for us to keep us motivated to write more content if you found this piece helpful._
+_Thanks for reading! Feel free to share this article with any of your friends, relatives or colleagues if you found this piece helpful._
 
 _You can connect with me on Twitter: [https://twitter.com/stmoerman](https://twitter.com/stmoerman)_
