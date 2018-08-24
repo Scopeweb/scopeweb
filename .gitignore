@@ -1,6 +1,9 @@
 # Composer
 .composer
 
+# htaccess
+.htaccess
+
 # Sass
 .sass-cache
 
