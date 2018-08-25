@@ -1,6 +1,6 @@
 ---
 title: 'Week 1: resources for (junior) web developers'
-date: '08/28/2018 21:39'
+date: '08/26/2018 21:39'
 taxonomy:
     tag:
         - resources
