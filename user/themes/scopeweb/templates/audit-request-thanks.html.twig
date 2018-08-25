@@ -1,0 +1,27 @@
+{% set header_image = page.media.images|first %}
+
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<!-- Spotlight -->
+<section class="spotlight bg-cover bg-size--cover" data-spotlight="fullscreen" style="background-image: url({{ header_image.url }});">
+    <span class="mask bg-dark alpha-7"></span>
+    <div class="spotlight-holder">
+        <div class="container d-flex align-items-center px-0 py-lg">
+            <div class="col">
+                <div class="row row-grid">
+                    <div class="col-lg-10">
+                        <div class="pt-lg-md pb-lg-md text-center text-lg-left">
+                            <h2 class="heading display-4 text-white mb-4">Your free website audit request has been received</h2>
+                            <p class="lead lh-180 text-white">We appreciate your interest in our audit. One of our colleagues will get back to you shortly. Have a great day!</p>
+                            <div class="mt-5">
+                                <a href="https://www.scopeweb.nyc" data-scroll-to data-scroll-to-offset="50" class="btn btn-white btn-circle px-5 mr-lg-4 box-shadow-2">Go back to our website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
