@@ -127,7 +127,7 @@
                 {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 3) %}
                     <div class="col-lg-4">
                         <div class="card shadow-sm shadow--hover">
-                            <img src="{{ post.media[post.header.image].url }}" class="card-img-top">
+                            <img src="{{ post.media[post.header.image].url }}" class="card-img-top" alt="post image">
                             <div class="card-body py-5 text-center">
                                 <a href="#" class="h5 lh-150">{{ post.title }}</a>
                                 <h6 class="text-muted mt-4 mb-0"><time datetime="{{ post.date | date(site.date_long) }}">{{ post.date | date(site.date_long) }}</time></h6>

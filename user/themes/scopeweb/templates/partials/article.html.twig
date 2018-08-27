@@ -1,6 +1,6 @@
 <div class="col-lg-4">
     <div class="card shadow-sm shadow--hover">
-        <img src="{{ post.media[post.header.image].cropResize(350, 230).url }}" class="card-img-top">
+        <img src="{{ post.media[post.header.image].cropResize(350, 230).url }}" class="card-img-top" alt="article image">
         <div class="card-body py-5 text-center">
             <a href="{{ post.url }}" class="h5 lh-150">{{ post.title }}</a>
             <h6 class="text-muted mt-4 mb-0"><time datetime="{{ post.date | date(site.date_long) }}">{{ post.date | date(site.date_long) }}</time></h6>
