@@ -26,7 +26,7 @@ You are increasingly reading about websites that are being hacked. Especially Wo
 
 Fortunately, there are several things you can do about this. You can secure your database and improve the security of your websites. This makes it as difficult as possible for the hacker.
 
-If you are well prepared, you can quickly restore a hacked website. However, you must have a plan ready. If you do not have a plan, a hack can mean the end of your website. You can fortunately protect your website in many ways. This makes it as difficult as possible for the hacker. In this article we will explain you step by step how you can secure your own WordPress website. If you do not understand the safety of websites, then this article is still suitable for you. We explain everything very easily. Of course we also offer a security package, more information can be found [on our website](https://www.kreynation.com/services).
+If you are well prepared, you can quickly restore a hacked website. However, you must have a plan ready. If you do not have a plan, a hack can mean the end of your website. You can fortunately protect your website in many ways. This makes it as difficult as possible for the hacker. In this article we will explain you step by step how you can secure your own WordPress website. If you do not understand the safety of websites, then this article is still suitable for you. We explain everything very easily. Of course we also offer a security package, more information can be found [on our website](https://www.scopeweb.nyc/services).
 
 ## The security phases
 <br>
