@@ -8,7 +8,7 @@ taxonomy:
         - Google
 slug: with-this-secret-you-will-be-more-visible-in-google
 description: 'Are you actively working on your findability in Google? Then you will undoubtedly know what SEO means. The goal of SEO is to create content that matches keywords that people type into the search engine. For example, if someone is looking for "the advantages of electric driving", then you want your page ...'
-image: google.jpg
+image: search.jpg
 author:
     name: 'Scope Web'
     image: author-scopeweb.jpg
