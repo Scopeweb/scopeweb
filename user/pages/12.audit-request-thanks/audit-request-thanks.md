@@ -18,4 +18,5 @@ metadata:
     'twitter:title' : Thanks for your audit request | Scope Web
     'twitter:description' : We succesfully received your website audit request. Expect actionable plans with a potential follow up within 48 hours from now!
     'twitter:image' : https://www.scopeweb.nyc/user/themes/scopeweb/images/fb-banner.jpg
+    robots: 'noindex, nofollow'
 ---

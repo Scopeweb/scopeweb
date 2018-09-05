@@ -18,4 +18,5 @@ metadata:
     'twitter:title' : Thanks for your message | Scope Web
     'twitter:description' : Thanks for sending us a message. We will reply to you as soon as possible - in the meantime feel free to learn more about us by browsing through our website.
     'twitter:image' : https://www.scopeweb.nyc/user/themes/scopeweb/images/fb-banner.jpg
+    robots: 'noindex, nofollow'
 ---
