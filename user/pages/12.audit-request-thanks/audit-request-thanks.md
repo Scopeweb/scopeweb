@@ -4,7 +4,8 @@ visible: false
 background_image: contact-wallpaper.jpg
 navcolor:
     -
-        navbar-dark bg-dark
+        navbar-dark
+navdark: true
 metadata:
     description: 'We succesfully received your website audit request. Expect actionable plans with a potential follow up within 48 hours from now!'
     'fb:app_id': 541318032968643

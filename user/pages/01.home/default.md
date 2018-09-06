@@ -4,6 +4,7 @@ visible: false
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'Scope Web is a creative design, digital and content agency tucked away in the heart of New York City. We produce great design that achieves your objectives.'
     'fb:app_id': 541318032968643

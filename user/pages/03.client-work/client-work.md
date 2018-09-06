@@ -4,6 +4,7 @@ menu: Client work
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'Learn more about the award winning work we have carried out for our clients, from design to development, branding and marketing. See how we can help you!'
     'fb:app_id': 541318032968643

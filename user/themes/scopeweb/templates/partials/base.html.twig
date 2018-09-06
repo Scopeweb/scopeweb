@@ -62,9 +62,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header>
     {% for navcolor in page.header.navcolor %}
         <nav class="navbar navbar-expand-lg navbar-transparent {{ navcolor }} py-3" id="navbar_main">
-    {% endfor %}
             <div class="container">
-                <a class="navbar-brand mr-lg-5" href="{{ base_url == '' ? '/' : base_url }}"><strong>Scope</strong> Web</a>
+                <a class="navbar-brand mr-lg-5" href="{{ base_url == '' ? '/' : base_url }}">
+                {% if page.header.navdark %}
+                    <img class="logo" src="{{ url('theme://images/logo-light.png') }}" alt="scope web logo">
+                {% else %}
+                    <img class="logo" src="{{ url('theme://images/logo-dark.png') }}" alt="scope web logo">
+                {% endif %}
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_main_collapse" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -72,7 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     {% include 'partials/navigation.html.twig' %}
                     <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                         <li class="nav-item mr-0">
-                            <a href="/contact" class="btn btn-sm btn-white btn-circle btn-icon d-none d-lg-inline-flex" id="gtm-cntc">
+                            <a href="{{ base_url }}/contact" class="btn btn-sm btn-white btn-circle btn-icon d-none d-lg-inline-flex" id="gtm-cntc">
                                 <span class="btn-inner--icon">💪</span>
                                 <span class="btn-inner--text">Let's get started</span>
                             </a>
@@ -81,6 +86,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </nav>
+    {% endfor %}
     </header>
 {% endblock %}
 
@@ -130,22 +136,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-lg-2">
                     <h5 class="heading h6 text-uppercase font-weight-700 mb-3">About us</h5>
                     <ul class="list-unstyled text-small">
-                        <li class="py-2"><a href="/services">Services</a>
+                        <li class="py-2"><a href="{{ base_url }}/services">Services</a>
                         </li>
-                        <li class="py-2"><a href="/client-work">Client work</a>
+                        <li class="py-2"><a href="{{ base_url }}/client-work">Client work</a>
                         </li>
-                        <li class="py-2"><a href="/about">About us</a>
+                        <li class="py-2"><a href="{{ base_url }}/about">About us</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-2">
                     <h5 class="heading h6 text-uppercase font-weight-700 mb-3">Solutions</h5>
                     <ul class="list-unstyled">
-                        <li class="py-2"><a href="/services/web-development">Web development</a>
+                        <li class="py-2"><a href="{{ base_url }}/services/web-development">Web development</a>
                         </li>
-                        <li class="py-2"><a href="/services">UI &amp; UX design</a>
+                        <li class="py-2"><a href="{{ base_url }}/services">UI &amp; UX design</a>
                         </li>
-                        <li class="py-2"><a href="/services">App development</a>
+                        <li class="py-2"><a href="{{ base_url }}/services">App development</a>
                         </li>
                     </ul>
                 </div>
@@ -153,11 +159,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="pr-lg-5">
                         <h1 class="heading h6 text-uppercase font-weight-700 mb-3"><strong>Scope</strong> Web</h1>
                         <ul class="list-unstyled">
-                            <li class="py-2"><a href="/careers">Careers</a>
+                            <li class="py-2"><a href="{{ base_url }}/careers">Careers</a>
                             </li>
-                            <li class="py-2"><a href="/terms-and-conditions">Terms and conditions</a>
+                            <li class="py-2"><a href="{{ base_url }}/terms-and-conditions">Terms and conditions</a>
                             </li>
-                            <li class="py-2"><a href="/privacy-policy">Privacy policy</a>
+                            <li class="py-2"><a href="{{ base_url }}/privacy-policy">Privacy policy</a>
                             </li>
                         </ul>
                     </div>

@@ -5,6 +5,7 @@ background_image: img-10.jpg
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'We offer a full range of creative services and can help you from the very creation of an idea through to delivery and on-going support. Get in touch today!'
     'fb:app_id': 541318032968643

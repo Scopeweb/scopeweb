@@ -8,6 +8,7 @@ citynl: city-nl.jpg
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'We would love to hear from you, whether you want to pop in for a coffee, discuss a new project or just want some advice. Get in touch today with us today!'
     'fb:app_id': 541318032968643

@@ -5,6 +5,7 @@ background_image: contact-wallpaper.jpg
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'Thanks for sending us a message. We will reply to you as soon as possible - in the meantime feel free to learn more about us by browsing through our website.'
     'fb:app_id': 541318032968643

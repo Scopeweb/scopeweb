@@ -4,6 +4,7 @@ visible: false
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'Our website uses cookies to enhance your browsing experience. Find out more about information we collect and your rights.'
     'fb:app_id': 541318032968643

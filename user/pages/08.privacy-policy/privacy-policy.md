@@ -4,6 +4,7 @@ visible: false
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'This policy explains the what, how, and why of the information we collect when you use our Services and Website.'
     'fb:app_id': 541318032968643

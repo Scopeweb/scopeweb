@@ -16,6 +16,7 @@ cover: blog.jpg
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'Explore our blog section to find industry insights and news, our own thoughts and what drives us forward to create amazing services for our clients.'
     'fb:app_id': 541318032968643

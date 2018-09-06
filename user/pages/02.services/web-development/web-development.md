@@ -4,6 +4,7 @@ visible: false
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'Using JavaScript technologies like Vue and React, we create web apps that are both beautiful and lightning-fast. Our applications are modern, secure and forward-thinking.'
     'fb:app_id': 541318032968643

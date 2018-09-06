@@ -4,6 +4,7 @@ visible: false
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'We are currently looking to expand our business development team by adding a Solutions Consultant who has been working in the web design and/or internet marketing industry for at least 2 years.'
     'fb:app_id': 541318032968643

@@ -5,6 +5,7 @@ background_image: img-1.jpg
 navcolor:
     -
         navbar-dark bg-dark
+navdark: true
 metadata:
     description: 'With our full range of services, we can support you from the creation of an idea, through to delivering your entire marketing plan. Get in touch today!'
     'fb:app_id': 541318032968643
