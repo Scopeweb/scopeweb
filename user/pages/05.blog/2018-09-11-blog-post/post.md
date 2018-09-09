@@ -18,6 +18,7 @@ postimage: seo-header.jpg
 navcolor:
     -
         navbar-light bg-light
+visible: false
 ---
 
 <div class="mb-3"></div>
