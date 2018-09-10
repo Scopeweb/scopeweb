@@ -1,6 +1,8 @@
 ---
 title: 'Google Chrome SSL changes - dont worry'
 date: '08/08/2018 19:49'
+metadata:
+    description: In recent months, almost every company has dived into privacy rules. Thanks to the arrival of the GDPR, most of us have become more security aware than ever before. On an increasing number of websites, we get welcomed with cookie reports and of course a green lock in the address bar indicating th...
 taxonomy:
     tag:
         - SEO

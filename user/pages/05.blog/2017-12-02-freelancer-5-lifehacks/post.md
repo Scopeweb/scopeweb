@@ -1,6 +1,8 @@
 ---
 title: 'Freelancer: 5 productivity lifehacks to improve'
 date: '12/02/2017 18:35'
+metadata:
+    description: The freelance productivity or productivity of most freelancers can be improved. Scope Web mainly works with freelancers based in the Netherlands, because we have our headquarters there. We have about one million self-employed people in the Netherlands. More than half of all self-employed people h...
 taxonomy:
     tag:
         - freelancing

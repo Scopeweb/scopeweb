@@ -1,6 +1,8 @@
 ---
 title: 'Secure your WordPress website in 7 steps'
 date: '12/05/2017 18:35'
+metadata:
+    description: You are increasingly reading about websites that are being hacked. Especially WordPress websites seem popular with hackers. However, this is not very strange, because many websites use WordPress. This makes it a popular target for hackers. Fortunately, there are several things you can do about th...
 taxonomy:
     tag:
         - wordpress

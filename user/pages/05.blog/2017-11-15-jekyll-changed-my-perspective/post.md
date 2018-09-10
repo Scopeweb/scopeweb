@@ -1,6 +1,8 @@
 ---
 title: 'Jekyll changed my perspective and here is why'
 date: '11/08/2017 07:59'
+metadata:
+    description: How did Jekyll change my life? I want to take the time to summarize my experiences with WordPress prior to Jekyll to compare how effective Jekyll has been over the past year. Although I have "stopped" using WordPress, there is good use for WordPress and I can respect that. I used WordPress for ma...
 taxonomy:
     tag:
         - github
