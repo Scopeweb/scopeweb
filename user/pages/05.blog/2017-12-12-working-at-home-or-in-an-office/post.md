@@ -1,6 +1,8 @@
 ---
 title: 'Remote team: Working at home or in an office?'
 date: '12/12/2017 15:00'
+metadata:
+    description: The number of freelancers has increased considerably in recent years. Yet it is true that the number of people working from home decreases. But why is that? Research has been done and it seems that more than 70 percent prefer to work in an office space. Freelancers find working in the office gene...
 taxonomy:
     tag:
         - workplace

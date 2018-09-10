@@ -1,6 +1,8 @@
 ---
 title:  "Which Cloud Hosting provider did we choose in 2018?"
 description: "DigitalOcean vs. Linode vs. Vultr vs. OVH vs. Scaleway"
+metadata:
+    description: Apart from the major players in the cloud hosting industry such as AWS, Google Cloud and Azure, there are several important players who have paved the way by providing a simple infrastructure. These include DigitalOcean, Linode, Vultr, OvH's Public Cloud and Scaleway, a subsidiary of Online.net
 slug: which-cloud-hosting-provider-2018
 date: 03/02/18 20:00
 taxonomy:

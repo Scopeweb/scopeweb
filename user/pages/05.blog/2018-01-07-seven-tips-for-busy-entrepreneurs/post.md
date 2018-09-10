@@ -1,7 +1,7 @@
 ---
 title: '7 time management tips for busy entrepreneurs'
 metadata:
-    description: Like many SMEs and local entrepreneurs, you may think that a professional website does not add value to your company or that it does not fit your budget. Or do you think that because you don’t use your computer or laptop as much, your potential customers do not do that either? Typical misconcepti...
+    description: Busy, busy, busy, is how many entrepreneurs feel. They have little time and there is always work to be done. To prevent you from being overloaded by this pressure, time management can offer a solution. You make a good layout of your day that is tailored to your work. With this support you can wor...
 published: true
 date: 01/07/2018 16:43
 taxonomy:

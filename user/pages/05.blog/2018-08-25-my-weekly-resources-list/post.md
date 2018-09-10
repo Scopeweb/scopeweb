@@ -1,6 +1,8 @@
 ---
 title: 'Week 1: resources for (junior) web developers'
 date: '08/26/2018 21:39'
+metadata:
+    description: It doesn’t take much work to find free online resources. While they’re often useful, they are not always of the highest quality. That’s where I spend some of my time researching to help you get started quickly. Below I’ve curated a nice list for anyone who is interested in some great web developm...
 taxonomy:
     tag:
         - resources

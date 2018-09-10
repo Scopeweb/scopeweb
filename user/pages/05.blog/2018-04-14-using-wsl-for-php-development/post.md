@@ -1,6 +1,8 @@
 ---
 title: 'Using WSL for local Grav development'
 published: true
+metadata:
+    description: For the past year our agency has been working mostly with the Grav CMS for smaller to mid sized web projects. Grav offers a flat-file CMS that is lightning fast and requires no database setups with additional security risks to it. Even though many developers seem to prefer Mac or Linux, Microsoft...
 date: '04/14/2018 17:10'
 taxonomy:
     tag:

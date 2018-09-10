@@ -1,6 +1,8 @@
 ---
 title: '7 reasons to have a professional website'
 date: '08/13/2018 06:23'
+metadata:
+    description: Like many SMEs and local entrepreneurs, you may think that a professional website does not add value to your company or that it does not fit your budget. Or do you think that because you don’t use your computer or laptop as much, your potential customers do not do that either? Typical misconcepti...
 taxonomy:
     tag:
         - SEO

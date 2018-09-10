@@ -1,6 +1,8 @@
 ---
 title: 'Predictions: Here are the SEO trends for 2018'
 date: '12/18/2017 15:00'
+metadata:
+    description: We have of course optimized our websites for search terms with a lot of search volume. Generally these are generic search terms or combinations of two keywords. We try to optimize our website as much as possible. In recent years, the use of speech has increased when searching in search engines. I...
 taxonomy:
     tag:
         - SEO

@@ -1,12 +1,14 @@
 ---
 title: 'With this secret you will be easier to find in Google'
 date: '09/03/2018 06:13'
+metadata:
+    description: Are you actively working on your findability in Google? Then you will undoubtedly know what SEO means. The goal of SEO is to create content that matches keywords that people enter into their searches through a search engine. For example, if someone searches for 'the advantages of electric driving...
 taxonomy:
     tag:
         - SEO
         - marketing
         - Google
-slug: with-this-secret-you-will-be-more-visible-in-google
+slug: more-google-visibility-tricks
 description: 'Are you actively working on your findability in Google? Then you will undoubtedly know what SEO means. The goal of SEO is to create content that matches keywords that people type into the search engine. For example, if someone is looking for "the advantages of electric driving", then you want your page ...'
 image: search.jpg
 author:

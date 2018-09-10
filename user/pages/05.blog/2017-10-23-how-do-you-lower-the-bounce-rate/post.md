@@ -1,6 +1,8 @@
 ---
 title: 'How do you lower the bounce rate?'
 date: '12/04/2017 13:23'
+metadata:
+    description: If you search for that question, you will find different answers. It used to be said that when a visitor leaves the site after visiting your website without clicking on your website, the bounce rate is 100%. But is that still the right definition? The strange thing is that Google itself also prov...
 taxonomy:
     tag:
         - SEO
