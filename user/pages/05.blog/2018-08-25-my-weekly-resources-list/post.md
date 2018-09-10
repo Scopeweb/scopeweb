@@ -90,7 +90,7 @@ Craft is more like a library of plugins with many different features mixed in to
 This plugin is free and will remain free forever. I thoroughly recommend trying this out and see how it improves your digital workflow.
 <div class="mb-5"></div>
 
-<h2><a href="Flat UI Input File" target="_blank" rel="noopener">Flat UI Input File</a></h2>
+<h2><a href="https://codepen.io/CreativeJuiz/pen/zqKtp" target="_blank" rel="noopener">Flat UI Input File</a></h2>
 
 <iframe id="cp_embed_HbwcG" src="//codepen.io/CreativeJuiz/embed/preview/HbwcG?height=450&amp;theme-id=0&amp;slug-hash=HbwcG&amp;default-tab=css%2Cresult&amp;user=CreativeJuiz&amp;embed-version=2&amp;pen-title=Custom%20styles%20for%20Input%20file&amp;preview=true" scrolling="no" allowtransparency="true" allowfullscreen="true" allowpaymentrequest="true" name="CodePen Embed" title="Custom styles for Input file" class="cp_embed_iframe " style="width: 100%; overflow: hidden;" height="450" frameborder="0"></iframe>
 
